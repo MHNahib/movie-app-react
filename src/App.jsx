@@ -4,7 +4,7 @@ import SearchIcon from "./search.svg";
 import { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 
-const API_URL = process.env.REACT_APP_API;
+const API_URL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API}`;
 
 const App = () => {
 
